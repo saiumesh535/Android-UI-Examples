@@ -32,8 +32,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // git has been added
-
         spinner                 =   (Spinner)findViewById(R.id.spinner);
         autoCompleteTextView    =   (AutoCompleteTextView)findViewById(R.id.autoCompleteTextView);
         showDateDialoge         =   (Button)findViewById(R.id.showDateDialoge);
